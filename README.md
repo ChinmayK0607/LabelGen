@@ -1,4 +1,4 @@
-# Micromnouse-robot
+# Micromouse-robot
 This repository hosts the code and necessary documentation for the Micromouse robot that can solve any maze using pathfinding algorithms.
 
 A project by Team Micromouse as part of the summer intern projects at IvLabs,VNIT,Nagpur,India.
