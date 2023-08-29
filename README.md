@@ -1,13 +1,17 @@
-#Micromnouse-robot
+# Micromnouse-robot
 This repository hosts the code and necessary documentation for the Micromouse robot that can solve any maze using pathfinding algorithms.
+
 A project by Team Micromouse as part of the summer intern projects at IvLabs,VNIT,Nagpur,India.
+
 ![image](https://github.com/ChinmayK0607/LabelGen/assets/114411195/57440bf6-aa2b-4cc9-b7ba-28c85f5901e3)
 
 Video of micromouse in action - //demo link, will update later:https://media.discordapp.net/attachments/1116080484754141315/1145729609531396257/IMG_0219.mov
+
 Page for the project:https://www.ivlabs.in/summer-projects.html
+
 Build guide and Code Overview: https://hackmd.io/@l_WDq7lkQq29Pz-KD1JPNA/BJf-U8sph
 
-##How it works
+## How it works
 The main algorithm of the maze solving is based on the flood fill algorithm which was devised for the MS paint to bucket fill shapes. The code is run till the set goal is reached. The mouse is completely autonomous and decides the path to be taken based on computation and sensor data. The main algorithm as it is remains in ```floodfill.ino```
 
 The code that is responsible for the movement of the motors and eventually the mouse is in ```motorcontrol_micromouse.ino``` which helps to rotate the rotors to a set distance using encoders and motor drivers. We have used n20 motors as they were small yet efficient enough for our usecase. Here is an overview diagram that can help you understand the structure and interconnection of the micromouse.
